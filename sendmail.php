@@ -21,12 +21,12 @@ $outlook_mail->Port = 587;
 $outlook_mail->SMTPSecure = 'tls';
 $outlook_mail->SMTPDebug = 1;
 $outlook_mail->SMTPAuth = true;
-$outlook_mail->Username   = 'pruebaCorreosAnalisis@outlook.com';
-$outlook_mail->Password   = 'analisis2022ucr';
+$outlook_mail->Username   = 'set_Username_email@domain.com';
+$outlook_mail->Password   = 'set_password';
 
-$outlook_mail->From = 'pruebaCorreosAnalisis@outlook.com';
-$outlook_mail->FromName = 'DAYAN'; // frome name
-$outlook_mail->AddAddress('steverova0594@outlook.com', 'Steven');  // Add a recipient  to name // Name is optional
+$outlook_mail->From = 'Username_email@outlook.com';
+$outlook_mail->FromName = 'name'; // frome name
+$outlook_mail->AddAddress('email@domain.com', 'name');  // Add a recipient  to name // Name is optional
 
 $outlook_mail->IsHTML(true); // Set email format to HTML
 
